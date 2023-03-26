@@ -1,0 +1,8 @@
+# Prompt the user to enter a number of bushels of bananasand return the total weight in metric tons
+
+
+bushels = float(input("How many bushels of bananas do you have?"))
+
+metric_tons = bushels*0.022046
+
+print("You have ", metric_tons, " metric tons of bananas.")
